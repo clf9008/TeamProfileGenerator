@@ -1,17 +1,26 @@
-# Team-Profile-Generator
+# Team Profile Generator
+A CMS (Content Management System) System to track employees by job, position, department, and manager using node, iquirer, and MYSQL. 
 
-# Application Description
-The Team Profile Generator is a command-line-input application run in Node that requests information from the user about members of an engineering team and generates an HTML file displaying that information.  Before running the application the user must perform an npm install to install all required dependencies.
+## Running the Application 
 
-Upon launching the app, the user is asked to describe the first member of their team.  The user enters the team member's name, selects that member's role from a list (options include "Engineer," "Intern," and "Manager), enters the member's ID (any string), enters the member's email address, and then must enter another piece of information that will differ depending on what role was selected.  If "Engineer" was selected, the app asks the user for the team member's GitHub username; if "Intern" was selected, the member's school is requested; and if "Manager" was chosen, the user is prompted for the team member's phone number.
+Create a directory on your local drive and clone the repository into that directory. 
 
-A screenshot showing an example user input is shown below:
+Upon launching the app, use the command line prompt to enter "app.js" and a prompt will appear asking to enter a "manager." After entering the manager, you'll be prompted to enter and intern and engineer as well. Once all the employees have been entered, the application will push all that information into an HTML document that will be generated in the output folder. 
 
-![Screenshot of user input](https://github.com/clf9008/Team-Profile-Generator/blob/master/assets/images/terminal-screenshot.JPG)
+### Installing
 
-When all information on the team member has been entered, the user is asked whether there are any more members they would like to add.  If so, the user is asked the same questions about the new team member.  If not, an HTML file is created with cards displaying the information on all the team members entered by the user in the "outputs" folder titled "team.html."  A screenshot of an example team profile is shown below:
+1. Go to https://github.com/clf9008/TeamProfileGenerator and click on the "Clone Repository" button. 
+2. Create a directory folder on your desktop and open with VS code.
+3. Open a terminal inside of VS Code and clone the repository to your personal directory.
+4. Once the file is cloned to your directory, navigate to TeamProfileGenerator.
+5. Install the dependencies required for this application to work by typing the following in the terminal:
+  * npm i
+6. Use your Git terminal to execute app.js 
 
-![Screenshot of HTML output](https://github.com/clf9008/Team-Profile-Generator/blob/master/assets/images/html-screenshot.JPG)
-
-# Techniques and Technologies Used
-This app was created so a manager can run the application and enter the prompt information to generate a team profile html document through the command line.  The app uses Inquirer and FS to generate the HTML document and node prompts.  The application also passes objects through the require module. 
+#### Required Applications
+- [Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview)
+- [Node](https://nodejs.org/en/download/)
+ 
+##### Application Preview
+![App Demo](C:\Users\Chase\Desktop\code-activities\Team Profile Generator\TeamProfileGenerator\assets\TeamProfileGenerator.gif.gif
+ "Gif Demo")
