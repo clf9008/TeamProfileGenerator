@@ -22,5 +22,5 @@ Upon launching the app, use the command line prompt to enter "app.js" and a prom
 - [Node](https://nodejs.org/en/download/)
  
 ##### Application Preview
-![App Demo](C:\Users\Chase\Desktop\code-activities\Team Profile Generator\TeamProfileGenerator\assets\TeamProfileGenerator.gif.gif
+![App Demo](path
  "Gif Demo")
