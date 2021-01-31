@@ -22,5 +22,4 @@ Upon launching the app, use the command line prompt to enter "app.js" and a prom
 - [Node](https://nodejs.org/en/download/)
  
 ##### Application Preview
-![App Demo](path
- "Gif Demo")
+![App Demo](https://github.com/clf9008/TeamProfileGenerator/blob/main/assets/TeamProfileGenerator.gif.gif?raw=true "Gif Demo")
